@@ -191,6 +191,8 @@
   display: flex;
   min-height: 50vh;
   background-color: var(--second-color);
+  border-color: white;
+  border-style: solid;
 }
 
 .ball{
@@ -253,3 +255,8 @@
   background-color: var(--second-color);
   color: var(--main-color);
 } 
+
+.dark-mode{
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
