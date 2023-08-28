@@ -18,19 +18,19 @@ d.addEventListener("DOMContentLoaded",e=>{
         "Hello, Have a good Day!");
     scrollTopBtn(".scroll-top-btn");
 
-    // responsiveMedia(
-    //     "youtube",
-    //     "(min-width 1024px)",
-    //     "Contenido Movil",
-    //     "Contenido Escritorio"
-    //     );
+    responsiveMedia(
+        "youtube",
+        "(min-width 1024px)",
+        "Contenido Movil",
+        "Contenido Escritorio"
+        );
         
-    //     responsiveMedia(
-    //         "gmaps",
-    //         "(min-width 1024px)",
-    //         "Contenido Movil",
-    //         "Contenido Escritorio"
-    //         );
+    responsiveMedia(
+        "gmaps",
+        "(min-width 1024px)",
+        "Contenido Movil",
+        "Contenido Escritorio"
+        );
 });
 
 // keydown evento cuando presiono una tecla
