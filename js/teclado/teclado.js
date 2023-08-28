@@ -12,7 +12,7 @@ export function moveBall (e,ball,stage){
     // y que tan alejado esta de los margenes top botton left right
     limitBall = $ball.getBoundingClientRect(),
     limitStage = $stage.getBoundingClientRect();
-    console.log(limitBall, limitStage)
+    // console.log(limitBall, limitStage)
         
     
     switch (e.keyCode) {
