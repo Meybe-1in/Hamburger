@@ -5,6 +5,7 @@ import countdown from "./cuenta regresiva/countdown.js";
 import scrollTopBtn from "./menu/btnScroll.js";
 import darkTheme from "./DarkLight/themeDL.js";
 import responsiveMedia from "./Responsive/responsive.js";
+import responsiveTester from "./Responsive/tester-responsive.js";
 
 const d = document;
 
@@ -45,6 +46,8 @@ d.addEventListener("DOMContentLoaded",e=>{
         referrerpolicy="no-referrer-when-downgrade">
         </iframe>`
         );
+
+    responsiveTester("responsive-tester");
 });
 
 // keydown evento cuando presiono una tecla
